@@ -1,10 +1,11 @@
-package one.digitalinnovation.personapi.mapper;
+package com.bonni.guilherme.personapi.mapper;
 
-import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import one.digitalinnovation.personapi.entity.Person;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+
+import com.bonni.guilherme.personapi.dto.request.PersonDTO;
+import com.bonni.guilherme.personapi.entity.Person;
 
 @Mapper
 public interface PersonMapper {

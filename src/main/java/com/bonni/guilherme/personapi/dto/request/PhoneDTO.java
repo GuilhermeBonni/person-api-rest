@@ -1,15 +1,16 @@
-package one.digitalinnovation.personapi.dto.request;
+package com.bonni.guilherme.personapi.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import one.digitalinnovation.personapi.enums.PhoneType;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+
+import com.bonni.guilherme.personapi.enums.PhoneType;
 
 @Data
 @Builder

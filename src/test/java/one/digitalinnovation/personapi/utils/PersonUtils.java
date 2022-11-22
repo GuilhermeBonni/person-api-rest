@@ -1,10 +1,10 @@
 package one.digitalinnovation.personapi.utils;
 
-import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import one.digitalinnovation.personapi.entity.Person;
-
 import java.time.LocalDate;
 import java.util.Collections;
+
+import com.bonni.guilherme.personapi.dto.request.PersonDTO;
+import com.bonni.guilherme.personapi.entity.Person;
 
 public class PersonUtils {
 

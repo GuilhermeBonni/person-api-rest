@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.enums;
+package com.bonni.guilherme.personapi.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,14 +1,16 @@
-package one.digitalinnovation.personapi.service;
+package com.bonni.guilherme.personapi.service;
 
 import lombok.AllArgsConstructor;
-import one.digitalinnovation.personapi.dto.request.PersonDTO;
-import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
-import one.digitalinnovation.personapi.entity.Person;
-import one.digitalinnovation.personapi.exception.PersonNotFoundException;
-import one.digitalinnovation.personapi.mapper.PersonMapper;
-import one.digitalinnovation.personapi.repository.PersonRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.bonni.guilherme.personapi.dto.request.PersonDTO;
+import com.bonni.guilherme.personapi.dto.response.MessageResponseDTO;
+import com.bonni.guilherme.personapi.entity.Person;
+import com.bonni.guilherme.personapi.exception.PersonNotFoundException;
+import com.bonni.guilherme.personapi.mapper.PersonMapper;
+import com.bonni.guilherme.repository.PersonRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

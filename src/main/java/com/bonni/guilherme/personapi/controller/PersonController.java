@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.controller;
+package com.bonni.guilherme.personapi.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
